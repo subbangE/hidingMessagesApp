@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="숨겨진 메세지입니다."
+        android:id="@+id/tvChat"
+        android:textColor="#FFFFFFFF"
+        android:background="@drawable/chat_bubble_space"
+        android:padding="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_tvChat"
+        android:textColor="#868E96"
+        app:layout_constraintEnd_toStartOf="@id/tvChat"
+        app:layout_constraintBottom_toBottomOf="@id/tvChat"
+        android:text="1111"
+        android:textSize="11dp"
+        android:layout_marginEnd="5dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
