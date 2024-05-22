@@ -17,4 +17,4 @@
 + 메시지별 잠금 기능
 
 ### 링크
-* 시연 영상 : https://www.youtube.com/watch?v=wYQpUL5d3uo
+👉🏻 시연 영상 : https://www.youtube.com/watch?v=wYQpUL5d3uo
